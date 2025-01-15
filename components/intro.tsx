@@ -94,13 +94,13 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 mx-2 py-3 duration-200 transition flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          className="group bg-white px-7 mx-2 py-3 duration-200 transition flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-110 active:scale-105 cursor-pointer borderBlack dark:bg-white/10"
           href="https://drive.google.com/file/d/1w1h7-K4bsNXzJNez5Q8DK-fREVlRLJae/view?usp=sharing"
           target="_blank"
           download
         >
           Download Resume{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition " />
+          <HiDownload className="opacity-60 hover:text-black group-hover:translate-y-1 transition " />
         </a>
 
         <div className="flex gap-2 "> 
