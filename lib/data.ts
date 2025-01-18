@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import ExcalidrawImg from "@/public/excalidraw.png";
-import ChatAppImg from "@/public/chatapp.png";
+import ChatAppImg from "@/public/chatapp-intro.png";
 import GithubCopilotImg from "@/public/githubCopilot.png";
 
 export const links = [
