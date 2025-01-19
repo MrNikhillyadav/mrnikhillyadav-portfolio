@@ -60,6 +60,7 @@ export const projectsData = [
       "Built a full stack real-time chat app using websockets, Next.js and Tailwind CSS to chat with multiple user in real-time.",
     tags: ["React", "Next.js", "Prisma","Postgres", "Tailwind CSS",],
     imageUrl: ChatAppImg,
+    href : "https://chatify-seven-beige.vercel.app/",
   },
   {
     title: "Excalidraw",
@@ -67,6 +68,7 @@ export const projectsData = [
       "This is an Implementation of student attendace system to keep track of all the records regarding students Performance.",
     tags: ["React", "Next.js", "Prisma","Postgres", "Tailwind CSS",],
     imageUrl: ExcalidrawImg,
+      href : "https://chatify-seven-beige.vercel.app/",
   },
   {
     title: "GitHub Copilot clone",
@@ -74,6 +76,7 @@ export const projectsData = [
       "Crafted a GitHub Copilot clone with TypeScript, Node.js, Next.js and  for a streamlined user experience.",
     tags: ["Next.js","Prisma ORM", "TailwindCSS", "Node.js"],
     imageUrl: GithubCopilotImg,
+      href : "https://github-copilot-clone.vercel.app/",
   },
 ] as const;
 
