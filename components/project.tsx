@@ -15,7 +15,7 @@ export default function Project({
   imageUrl,
   href,
 }: ProjectProps) {
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLAnchorElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["0 1", "1.33 1"],
