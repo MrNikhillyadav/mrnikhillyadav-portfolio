@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import ExcalidrawImg from "@/public/excalidraw.png";
 import ChatAppImg from "@/public/chatapp-intro.png";
 import GithubCopilotImg from "@/public/githubCopilot.png";
+import MindXcapeImg from "@/public/mindXcape.png";
+import SunBurnImg from "@/public/sunburn.png";
 
 export const links = [
   {
@@ -63,20 +65,36 @@ export const projectsData = [
     href : "https://chatify-seven-beige.vercel.app/",
   },
   {
-    title: "Excalidraw",
-    description:
-      "This is an Implementation of student attendace system to keep track of all the records regarding students Performance.",
-    tags: ["React", "Next.js", "Prisma","Postgres", "Tailwind CSS",],
-    imageUrl: ExcalidrawImg,
-      href : "https://chatify-seven-beige.vercel.app/",
-  },
-  {
     title: "GitHub Copilot clone",
     description:
       "Crafted a GitHub Copilot clone with TypeScript, Node.js, Next.js and  for a streamlined user experience.",
     tags: ["Next.js","Prisma ORM", "TailwindCSS", "Node.js"],
     imageUrl: GithubCopilotImg,
       href : "https://github-copilot-clone.vercel.app/",
+  },
+  {
+    title: "MindXcape",
+    description:
+      "Unlock mental clarity with our AI-Psychologist. Share your thoughts, receive personalized guidance, and find support anytime, anywhere.",
+      tags: ["React", "Next.js", "Drizzle ORM","Neon DB", "Tailwind CSS",],
+      imageUrl: MindXcapeImg,
+      href : "https://mindxcape-ai.vercel.app/",
+    },
+    {
+      title: "Excalidraw",
+      description:
+        "This is an Implementation of student attendace system to keep track of all the records regarding students Performance.",
+      tags: ["React", "Next.js", "Prisma","Postgres", "Tailwind CSS",],
+      imageUrl: ExcalidrawImg,
+        href : "https://chatify-seven-beige.vercel.app/",
+    },
+  {
+    title: "Sunburn",
+    description:
+      "Sundown is a multi-disciplinary studio focused on creating unique, end-to-end experiences and environments.",
+    tags: [" Vanilla Javascript","HTML","CSS", "GSAP"],
+    imageUrl: SunBurnImg,
+      href : "https://sunburn-app.vercel.app/",
   },
 ] as const;
 
