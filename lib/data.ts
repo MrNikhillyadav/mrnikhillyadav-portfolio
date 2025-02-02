@@ -1,12 +1,11 @@
 import React from 'react';
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import ExcalidrawImg from "@/public/excalidraw.png";
 import ChatAppImg from "@/public/chatapp-intro.png";
 import GithubCopilotImg from "@/public/githubCopilot.png";
 import MindXcapeImg from "@/public/mindXcape.png";
-import SunBurnImg from "@/public/sunburn.png";
+import LinearImg from "@/public/linearImg.png";
 
 export const links = [
   {
@@ -81,6 +80,14 @@ export const projectsData = [
       href : "https://mindxcape-ai.vercel.app/",
     },
     {
+      title: "Linear app",
+      description:
+      "Linear is a purpose-built tool for planning and building products. Streamline issues, projects, and product roadmaps.",
+      tags: ["React", "Next.js", "Framer Motion", "Tailwind CSS",],
+      imageUrl: LinearImg,
+      href : "https://linear-page.vercel.app/",
+    },
+    {
       title: "Excalidraw",
       description:
         "This is an Implementation of student attendace system to keep track of all the records regarding students Performance.",
@@ -88,14 +95,8 @@ export const projectsData = [
       imageUrl: ExcalidrawImg,
         href : "https://chatify-seven-beige.vercel.app/",
     },
-  {
-    title: "Sunburn",
-    description:
-      "Sundown is a multi-disciplinary studio focused on creating unique, end-to-end experiences and environments.",
-    tags: [" Vanilla Javascript","HTML","CSS", "GSAP"],
-    imageUrl: SunBurnImg,
-      href : "https://sunburn-app.vercel.app/",
-  },
+
+ 
 ] as const;
 
 export const skillsData = [
