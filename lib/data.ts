@@ -6,6 +6,7 @@ import ChatAppImg from "@/public/chatapp-intro.png";
 import GithubCopilotImg from "@/public/githubCopilot.png";
 import MindXcapeImg from "@/public/mindXcape.png";
 import LinearImg from "@/public/linearImg.png";
+import JobHuntImg from "@/public/jobhunt.png";
 
 export const links = [
   {
@@ -70,6 +71,14 @@ export const projectsData = [
     tags: ["Next.js","Prisma ORM", "TailwindCSS", "Node.js"],
     imageUrl: GithubCopilotImg,
       href : "https://github-copilot-clone.vercel.app/",
+  },
+  {
+    title: "JobHunt Portal",
+    description:
+      "A fullstack Job portal where you developers can find the latest job opportunities from all across the globe.",
+    tags: ["Next.js","Prisma ORM", "TailwindCSS","NeonDb", "Vercel blob"],
+    imageUrl: JobHuntImg,
+      href : "https://jobhunt-rust.vercel.app/",
   },
   {
     title: "MindXcape",
