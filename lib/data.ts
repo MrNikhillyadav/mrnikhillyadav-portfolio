@@ -7,6 +7,7 @@ import GithubCopilotImg from "@/public/githubCopilot.png";
 import MindXcapeImg from "@/public/mindXcape.png";
 import LinearImg from "@/public/linearImg.png";
 import JobHuntImg from "@/public/jobhunt.png";
+import DevSpaceImg from "@/public/devspace.png";
 
 export const links = [
   {
@@ -56,6 +57,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "DevSpace",
+    description:
+      "A full stack platform for developer to share their interview experiences and learning with others in the community.",
+    tags: ["React", "Next.js", "Prisma","Postgres", "Tailwind CSS",],
+    imageUrl: DevSpaceImg,
+    href : "https://dev-space-iota.vercel.app/",
+  },
   {
     title: "Real-time Chat App",
     description:
