@@ -63,7 +63,7 @@ export const projectsData = [
       "A full stack platform for developer to share their interview experiences and learning with others in the community.",
     tags: ["React", "Next.js", "Prisma","Postgres", "Tailwind CSS",],
     imageUrl: DevSpaceImg,
-    href : "https://dev-space-iota.vercel.app/",
+    href : "https://devxspace.vercel.app/",
   },
   {
     title: "Real-time Chat App",
