@@ -61,7 +61,7 @@ export const projectsData = [
     title: "DevSpace",
     description:
       "A full stack platform for developer to share their interview experiences and learning with others in the community.",
-    tags: ["React", "Next.js", "Prisma","Postgres", "Tailwind CSS",],
+    tags: ["React", "Next.js", "Prisma","Postgres", "Tailwind CSS","ShadCN UI"],
     imageUrl: DevSpaceImg,
     href : "https://devxspace.vercel.app/",
   },
